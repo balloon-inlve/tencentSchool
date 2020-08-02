@@ -167,17 +167,114 @@ p {
 .main {
   height: 1000px;
   background-color: #d6dae3;
+  padding-top: 20px;
 }
-.main .content {
+.main .conent {
   width: 1070px;
   margin: 0 auto;
 }
-.main .content .lfet {
+.main .conent .left {
   float: left;
-  background: red;
+  border: 1px solid red;
+  width: 784px;
+  height: 100%;
 }
-.main .content .right {
+.left .left1 {
+  background-color: #f2f1ef;
+  overflow: hidden;
+}
+.left .left1 .left1top {
+  overflow: hidden;
+}
+.left .left1 h2 {
+  background: url(../image/left11.png) no-repeat 20px center;
+  padding-left: 50px;
+  font-size: 19px;
+  font-weight: 500;
+  float: left;
+  margin: 20px 0;
+}
+.left .left1 span {
+  float: right;
+  color: #888886;
+  font-size: 12px;
+  margin-top: 28px;
+  padding-right: 26px;
+}
+.left .left1 .left1_middle {
+  padding: 0 0 20px 20px;
+  overflow: hidden;
+}
+.left .left1 .left1_middle li {
+  float: left;
+  width: 228px;
+  margin-right: 26px;
+}
+.left .left1 .left1_middle li .li1div {
+  background-color: #fff;
+  padding: 18px 18px 18px 16px;
+}
+.left .left1 .left1_middle li .li1div h6 {
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.left .left1 .left1_middle li .li1div p {
+  font-size: 13px;
+  color: #888888;
+}
+/* main left2 */
+.left .left2 {
+  overflow: hidden;
+  background-color: #f2f1ef;
+  margin-top: 20px;
+}
+.left .left2 h2 {
+  background: url(../image/left22.png) no-repeat 20px center;
+  padding-left: 50px;
+  font-size: 19px;
+  font-weight: 500;
+  float: left;
+  margin: 20px 0;
+}
+.left .left2 .left2_span1 {
+  float: right;
+  color: #888886;
+  font-size: 12px;
+  margin-top: 28px;
+  padding-right: 26px;
+}
+.left .left2 ul {
+  margin-top: 60px;
+}
+.left .left2 ul li {
+  width: 740px;
+  height: 126px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.left .left2 ul li:nth-child(1) {
+  background: #fff url(../image/left23.png) no-repeat right -20px;
+}
+.left .left2 ul li .left2_div1 {
+  overflow: hidden;
+  margin: 20px 0 20px 20px;
+}
+.left .left2 ul li .left2_div1 img {
+  float: left;
+}
+.left .left2 ul li .left2_div1 .left2_div2 {
+  float: left;
+}
+.left .left2 ul li:nth-child(2) {
+  background: #fff url(../image/left25.png) no-repeat right -20px;
+}
+.left .left2 ul li:nth-child(3) {
+  background: #fff url(../image/left24.png) no-repeat right -20px;
+}
+/* main right */
+.main .conent .right {
   float: left;
   background: pink;
+  width: 269px;
 }
-/* 提交 */
