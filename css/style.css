@@ -1,0 +1,182 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: initial;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* 
+ * 头部 header
+ */
+/* 顶部 */
+.top {
+  margin: 0 auto;
+  width: 1070px;
+  height: 78px;
+  line-height: 78px;
+}
+/* logo图片 */
+.top .logo {
+  display: inline-block;
+  width: 310px;
+  background: url(../image/logo.png) no-repeat center;
+  text-indent: -9999px;
+  vertical-align: top;
+}
+/* 导航菜单 */
+.nav {
+  display: inline-block;
+  height: 100%;
+  margin: 0 80px;
+}
+.nav li {
+  display: inline-block;
+  width: 100px;
+  height: 100%;
+  background: url(../image/nav.png) no-repeat 0 0;
+}
+.nav li:nth-child(1) {
+  width: 90px;
+}
+.nav li:nth-child(2) {
+  background-position-x: -100px;
+}
+.nav li:nth-child(3) {
+  background-position-x: -220px;
+}
+.nav li:nth-child(4) {
+  background-position-x: -340px;
+}
+.nav li:hover {
+  background-image: url(../image/nav-on.png);
+}
+/* 注册登录 */
+.input {
+  padding: 16px 0;
+  width: 140px;
+  display: inline-block;
+  vertical-align: top;
+}
+.input .sign {
+  height: 16px;
+  line-height: 16px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  text-align: right;
+}
+.input .sign a {
+  vertical-align: middle;
+  color: #cfbba7;
+}
+.input .sign .line {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 12px;
+  width: 1px;
+  height: 14px;
+  background-color: #d1bda9;
+}
+.input .search {
+  height: 25px;
+  border: 1px solid #ceb9a3;
+}
+.input .search input {
+  box-sizing: border-box;
+  width: 110px;
+  height: 100%;
+  float: left;
+  outline: none;
+  border: 0;
+}
+.input .search button {
+  float: left;
+  background: url(../image/search.png) no-repeat;
+  outline: none;
+  border: none;
+  margin-top: 2px;
+  margin-right: 5px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+/* banner图 */
+.banner {
+  height: 360px;
+  background: url(../image//banner.png) no-repeat center/100%;
+}
+/* 底部 */
+.bottom {
+  margin: 0 auto;
+  padding: 0 22px;
+  width: 1070px;
+  height: 36px;
+  line-height: 36px;
+  position: relative;
+}
+.bottom img,
+.bottom p {
+  float: left;
+}
+.bottom img {
+  margin: 7.5px 10px 0 0;
+}
+.bottom p {
+  font-size: 14px;
+}
+.bottom .round {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  background-color: #d6dae3;
+  margin-left: -10px;
+  border-radius: 50%;
+  margin-bottom: -20px;
+}
+.bottom .round .triangle {
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent transparent;
+}
+
+/* 
+主要内容 main
+*/
+.main {
+  height: 1000px;
+  background-color: #d6dae3;
+}
+.main .content {
+  width: 1070px;
+  margin: 0 auto;
+}
+.main .content .lfet {
+  float: left;
+  background: red;
+}
+.main .content .right {
+  float: left;
+  background: pink;
+}
